@@ -1,0 +1,49 @@
+<!-- Bootstrap v3.0.3 -->
+<link href="https://s3.amazonaws.com/mturk-public/bs30/css/bootstrap.min.css" rel="stylesheet" />
+<section class="container" id="Other" style="margin-bottom:15px; padding: 10px 10px; font-family: Verdana, Geneva, sans-serif; color:#333333; font-size:0.9em;">
+<div class="row col-xs-12 col-md-12"><!-- Instructions -->
+<div class="panel panel-primary">
+<div class="panel-heading"><strong>Instructions</strong></div>
+
+<div class="panel-body">
+<p>The goal of this HIT is to label tweets into a Alexa intent category</p>
+
+<p class="small-text text-info">1) Is CUSTOM_INTENT_A</p>
+
+<p>Here are example tweets:</p>
+
+<table class="table table-condensed small-text">
+	<tbody>
+		<tr>
+			<th>The author of the tweet...</th>
+			<th>Examples of tweet that belongs in this category</th>
+		</tr>
+		<tr>
+			<td>... Is CUSTOM_INTENT_A:</td>
+			<td>
+			<ol>
+				<li>example tweet</li>
+				<li>example tweet</li>
+				<li>example tweet</li>
+				<li>example tweet</li>
+			</ol>
+			</td>
+		</tr>
+	</tbody>
+</table>
+<em>The underlying purpose of this HIT is to identify the tweets which will be used as a bunch of different utterances in natural language for Alexa intent schema.</em></div>
+</div>
+<!-- End Instructions --><!-- Content Body -->
+
+<section>What category would the following tweet belong in:
+<fieldset><label>${tweet}</label>
+
+<div class="checkbox"><label><input name="Q3Answer" type="checkbox" value="custom_intent_a" />CUSTOM_INTENT_A</label><br />
+</div>
+</fieldset>
+</section>
+</div>
+</section>
+<style type="text/css">.small-text { font-size: 0.85em; }
+.emphasis{ color:red; }
+</style>

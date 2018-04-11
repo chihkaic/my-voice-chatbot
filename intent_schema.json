@@ -1,0 +1,45 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "ltdf challenge",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "WhatsAGeneralRanking",
+                    "slots": [],
+                    "samples": [
+                        "what general ranking is",
+                        "what is a general ranking",
+                        "What's a general ranking"
+                    ]
+                },
+                {
+                    "name": "PostAGeneralRanking",
+                    "slots": [],
+                    "samples": [
+                        "publish a general ranking to my tweet"
+                    ]
+                },
+                {
+                    "name": "ShowStageIntro",
+                    "slots": [],
+                    "samples": [
+                        "Show me the introduction of this stage"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
